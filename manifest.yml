@@ -1,0 +1,6 @@
+---
+applications:
+- name: spring-boot-microservices-deploy-app-cloud
+  instances: 1
+  host: spring-boot-microservices-deploy-app-cloud
+  path: target/spring-boot-hello-world-example-0.0.1-SNAPSHOT.jar
